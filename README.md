@@ -27,5 +27,17 @@ Passkey is a modern, secure, and responsive password manager built with the **ME
 
 ## 📁 Project Structure
 
-# PassKey-your_own_password_Manager
- It's a password manager , which store your sitename , username , and passwords in local storage and in mongodb . Based on React, Express & MongoDB
+Password-Mongo/ ├── backend/ │ ├── server.js │ └── .env ├── frontend/ │ ├── src/ │ │ ├── App.jsx │ │ ├── components/ │ │ │ ├── Navbar.jsx │ │ │ └── Footer.jsx │ │ └── ... │ └── public/ └── README.md
+
+Password-Local/ ├── src/ │ │ ├── App.jsx │ │ ├── components/ │ │ │ ├── Navbar.jsx │ │ │ └── Footer.jsx │ │ └── ... │ └── public/ └── README.md
+
+---
+## 🌐 API Endpoints
+
+| Method | Endpoint | Description         |
+|--------|----------|---------------------|
+| GET    | `/`      | Fetch all passwords |
+| POST   | `/`      | Save a new password |
+| DELETE | `/`      | Delete a password   |
+
+
